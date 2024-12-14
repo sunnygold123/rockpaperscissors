@@ -8,9 +8,9 @@ public class SixthDharmapuramSaathvik implements Player {
     
     public String move(String[] myMoves, String[] opponentMoves, int myScore, int opponentScore) {
         if (myMoves.length == 0) {
-            return "r"; 
-        } else {
             return "s"; 
+        } else {
+            return "r"; 
         }
     }
 
